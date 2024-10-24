@@ -276,11 +276,12 @@ div {
         width: $code-dot-size;
         height: $code-dot-size;
         border-radius: 50%;
-        background-color: var(--code-header-muted-color);
-        box-shadow: ($code-dot-size + $code-dot-gap) 0 0
-            var(--code-header-muted-color),
-          ($code-dot-size + $code-dot-gap) * 2 0 0
-            var(--code-header-muted-color);
+        background-color: #FF5F57; 
+        //var(--code-header-muted-color);
+        box-shadow: ($code-dot-size + $dot-margin) 0 0 #FEBC2E,
+        ($code-dot-size + $dot-margin) * 2 0 0 #28C840;
+        /*($dot-size + $dot-margin) 0 0 var(--code-header-muted-color),
+          ($dot-size + $dot-margin) * 2 0 0 var(--code-header-muted-color);*/
       }
 
       span {
